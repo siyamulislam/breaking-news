@@ -1,0 +1,20 @@
+################## Font Awesome #######################
+https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react
+npm i --save @fortawesome/fontawesome-svg-core
+  npm install --save @fortawesome/free-solid-svg-icons
+  npm install --save @fortawesome/react-fontawesome
+
+################## BootStrap ########################
+https://create-react-app.dev/docs/adding-bootstrap/
+npm install bootstrap
+step-2
+add this at the beginning of your src/index.js file:
+import 'bootstrap/dist/css/bootstrap.css';
+
+################## React BootStrap ########################
+https://react-bootstrap.github.io/getting-started/introduction/
+npm install react-bootstrap bootstrap
+
+step2:
+{/* The following line can be included in your src/index.js or App.js file*/}
+import 'bootstrap/dist/css/bootstrap.min.css';

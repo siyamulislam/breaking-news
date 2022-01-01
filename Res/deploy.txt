@@ -1,0 +1,19 @@
+⌨️ Commands Used https://www.youtube.com/watch?v=2hM5viLMJpA
+----------------------------------------------------------
+Step 1
+▶️ git remote add origin [YOUR REPO LINK]
+▶️ git add -A
+▶️ git commit -m "Initial commit"
+▶️ git push -u origin main
+
+Step 2 package.json
+"homepage": "https://[USERNAME].github.io/[YOUR REPO NAME]",
+
+Step 3 src folder cmd run
+▶️ npm install gh-pages --save-dev
+
+Step 4  add under script package.json
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+
+▶️ npm run deploy
